@@ -1,0 +1,37 @@
+.footer{
+    background: green;
+    padding-top: 45px;
+    padding-bottom:40px ;
+    color: #fff;
+}
+.footer-text{
+    margin-right: 15px;
+    color: #E7D9FF;
+    font-size: 14px;
+    line-height: 20px;
+}
+.footer-menu{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+}
+.social-link{
+    text-decoration: none;
+    margin-right: 15px;
+}
+.top-link{
+    text-decoration: none;
+    color: #fff;
+}
+.top-link-text{
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+    margin-right: 15px;
+}
+.pay-logo{
+    vertical-align: middle;
+    margin-right: 25px;
+}

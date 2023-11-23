@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: rgb(57, 57, 117);
+    color: rgb(57, 57, 117);
+    padding: 0;
+    margin: 0;
+}
+.header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(157, 36, 36);
+}
+.menu-link{
+    font-size: 25px;
+    line-height:40px ;
+    text-decoration: none;
+    color: aliceblue;
+    margin-right: 45px;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+.user{
+    width: 60px;
+    height: 60px;
+}
+.footer{
+    background-color: rgb(46, 45, 45);
+    padding-top: 100px;
+    padding-bottom: 45px;
+    box-shadow: -5px 21px 18px 39px rgba(227, 25, 25, 0.58);
+}
+.items{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-bottom: 80px;
+}
+.footer-menu-link{
+    text-decoration: none;
+    color: rgb(228, 89, 89);
+}
+.footer-text{
+    text-align: center;
+    color: aquamarine;
+}
+.about{
+    height: 500px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(45, 43, 43);
+    background-image: url(wot_artboard_ruby.png);
+    background-size: cover;
+}

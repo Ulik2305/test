@@ -1,0 +1,49 @@
+body{
+    background-color: white;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.navigation a{
+    color: #828282;
+    text-decoration: none;
+}
+.image1{
+    display: flex;
+    justify-content: center;
+}
+.aboutInfo{
+    display: flex;
+    justify-content: space-between;
+}
+.aboutMe{
+    background-color: #f6f6f6;
+}
+.aboutYou{
+   text-align: center;
+}
+.skilzed{
+    text-align: center;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+}
+.portfolio{
+    background-color: #f6f6f6;
+}
+h1{
+    text-align: center;
+}
+
+.portfolio {
+    padding-top: 100px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}

@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.container {
+    max-width: 1150px;
+    margin: auto;
+}
+
+.header {
+    height: 60px;
+    display: flex; /*выравнивание по центру по вертикали*/
+    align-items: center; /*раскидываем по сторонам*/
+    justify-content: space-between;
+    background-color: #c0efc0;
+}
+
+.menu-link {
+    font-size: 20px;
+    line-height: 24px;
+    color: #2E266F;
+    text-decoration: none;
+    margin-right: 45px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.user {
+    width: 50px;
+    height: 50px;
+}
+
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.home-office {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 70px;
+    color: blueviolet;
+    text-decoration: underline;
+    line-height: 20px;
+}
+
+.row p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.button {
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 40px;
+    background-color: chartreuse;
+    font-size: 18px;
+    color: #731d1d;
+}
+
+.button:hover {
+    background-color: fuchsia;
+    color: #2E266F;
+}
+.house-img {
+    width: 100%;
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.card {
+    width: 500px;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.card:hover {
+    width: 600px;
+    background: aquamarine;
+    font-size: 23px;
+    color: blue;
+    font-family: sans-serif;
+}
